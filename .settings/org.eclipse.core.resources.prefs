@@ -1,0 +1,14 @@
+eclipse.preferences.version=1
+encoding//src/easyoa/oa=UTF-8
+encoding//src/easyoa/oa/forms.py=utf-8
+encoding//src/easyoa/oa/models.py=utf-8
+encoding//src/easyoa/oa/views.py=utf-8
+encoding//src/easyoa/templates/aclUser.html=UTF-8
+encoding//src/easyoa/templates/aclUser_pop.html=UTF-8
+encoding//src/easyoa/templates/base.html=UTF-8
+encoding//src/easyoa/templates/department.html=UTF-8
+encoding//src/easyoa/templates/department_pop.html=UTF-8
+encoding//src/easyoa/templates/department_query.html=UTF-8
+encoding//src/easyoa/templates/index.html=UTF-8
+encoding/<project>=UTF-8
+separateDerivedEncodings=true

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<script language="JavaScript" type="text/javascript" src="jquery-easyui-1.5.1/jquery.min.js" charset="utf-8"></script>  
+                                                          <!--(指定编码方式，防止出现乱码)引入Easy"src/jquery-easyui-1.5.1/jquery.min.js"UI中使用的Jquery版本-->
+	<script language="JavaScript" type="text/javascript" src="jquery-easyui-1.5.1/jquery.easyui.min.js" charset="utf-8"></script> 
+	<!--(指定编码方式，防止出现乱码)引入EasyUi文件-->
+
+	<link rel="stylesheet" type="text/css" href="jquery-easyui-1.5.1/themes/default/easyui.css">   <!--引入CSS样式-->
+	<link rel="stylesheet" type="text/css" href="jquery-easyui-1.5.1/themes/icon.css">   <!--Icon引入-->
+	
+	<script language="JavaScript" type="text/javascript" src="jquery-easyui-1.5.1/locale/easyui-lang-zh_CN.js"></script>  <!--汉化-->
+
+
+
+    </head>
+    <body>
+    <input id="cc" style="width:200px" />
+    <script>
+    $('#cc').dialog({
+        title: 'My Dialog',
+        width: 400,
+        height: 200,
+        closed: false,
+        cache: false,
+        href: 'www.sina.com',
+        modal: true,
+        collapsible:true
+    });
+    $('#cc').dialog('refresh', 'www.baidu.com');
+    </script>
+
+    </body>
+</html>
